@@ -1,16 +1,53 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infográfico Cinema Goiano</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <section class="Title">
-            <h1>Title</h1>
-        </section>
-    </main>
+  <h1>Importantes lançamentos do cinema goiano nos últimos anos</h1>
+  <div class="infografico">
+    <div class="filme" onclick="toggleSinopse(this)">
+      <img src="Oeste Outra Vez.png" alt="Oeste Outra Vez">
+      <h2>Oeste Outra Vez (2024)</h2>
+      <p><strong>Direção:</strong> Érico Rassi</p>
+      <p class="sinopse">Ambientado no sertão de Goiás, Oeste Outra Vez acompanha a história de Totó (Ângelo Antônio) e Durval (Babu Santana), cuja trajetória se entrelaça de forma trágica: ambos, abandonados pela mesma mulher, despertam uma rivalidade intensa e destrutiva. Inspirado nos elementos clássicos do faroeste, o filme explora a angústia e a amargura daqueles que se veem perdidos sem o apoio de quem amam. Confrontados com a própria vulnerabilidade, os dois encaram um conflito brutal, que reflete disputas pessoais, o choque de tradições e a inevitável passagem do tempo. No sertão, o palco se transforma em um espaço onde honra, orgulho e desespero se misturam, revelando a essência de homens forjados pelo isolamento. Aos poucos, as cicatrizes de um passado repleto de desilusões e perdas irreparáveis são expostas, enquanto cada confronto intensifica a tensão das batalhas internas.</p>
+    </div>
+
+    <div class="filme" onclick="toggleSinopse(this)">
+      <img src="O Punk Goiano Vozes Trans.png" alt="O Punk Goiano: Vozes Trans">
+      <h2>O Punk Goiano: Vozes Trans (2024)</h2>
+      <p><strong>Direção:</strong> Lucca Brasil</p>
+      <p class="sinopse">Há pessoas trans no movimento punk? Como o punk resiste em um estado brasileiro tão conservador como Goiás? Ele está aberto a diferentes expressões de gênero?</p>
+    </div>
+
+    <div class="filme" onclick="toggleSinopse(this)">
+      <img src="Para Carlos.png" alt="Para Carlos">
+      <h2>Para Carlos (2024)</h2>
+      <p><strong>Direção:</strong> Carlos Cipriano</p>
+      <p class="sinopse">Você foi embora sem me dar a chance de dizer adeus. Só agora que viajo sozinho pra longe de Goiás é que posso fazer essa despedida. Te escrevo essa carta pra isso.
+      </p>
+    </div>
+
+    <div class="filme" onclick="toggleSinopse(this)">
+      <img src="Minha Irmã e Eu.png" alt="Minha Irmã e Eu">
+      <h2>Minha Irmã e Eu (2023)</h2>
+      <p><strong>Direção:</strong> Susana Garcia</p>
+      <p class="sinopse">As irmãs Mirian e Mirelly nasceram no interior de Goiás, mas moram em cidades diferentes. Quando a mãe desaparece, as duas deixam as diferenças de lado e se unem para procurá-la, em uma jornada que pode mudar suas vidas.
+      </p>
+    </div>
+
+    <div class="filme" onclick="toggleSinopse(this)">
+      <img src="Nata.png" alt="Nata">
+      <h2>Nata (2024)</h2>
+      <p><strong>Direção:</strong> Erik Ely</p>
+      <p class="sinopse">Em uma noite de natal, duas crianças decidem brincar com um tabuleiro ouija. natal é tempo de comemorar a vida, espalhar o amor e semear a esperança. por isso, é bom ficarmos próximos daqueles que amamos.
+      </p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
