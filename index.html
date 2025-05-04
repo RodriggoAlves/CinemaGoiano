@@ -4,9 +4,70 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Infográfico Cinema Goiano</title>
-  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
+    <style>
+                body {
+        font-family: Arial, sans-serif;
+        background-color: #94c3ee;
+        margin: 0;
+        padding: 20px;
+        color: #333;
+        }
+
+        h1 {
+        text-align: center;
+        color: #2c3e50;
+        }
+
+        .infografico {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        margin-top: 30px;
+        background-color: #e6f0ff;
+        padding: 20px;
+        border-radius: 12px;
+        }
+
+        .filme {
+        background-color: #ffffff;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: transform 0.3s;
+        }
+
+        .filme:hover {
+        transform: scale(1.02);
+        }
+
+        .filme img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        }
+
+        .filme h2 {
+        margin: 10px 0 5px;
+        font-size: 1.2em;
+        color: #34495e;
+        }
+
+        .filme p {
+        margin: 5px 0;
+        }
+
+        .sinopse {
+        display: none;
+        margin-top: 10px;
+        font-style: italic;
+        color: #555;
+        }
+    </style>
+
   <h1>Importantes lançamentos do cinema goiano nos últimos anos</h1>
   <div class="infografico">
     <div class="filme" onclick="toggleSinopse(this)">
@@ -47,7 +108,5 @@
       </p>
     </div>
   </div>
-
-  <script src="script.js"></script>
 </body>
 </html>
