@@ -6,7 +6,7 @@
   <title>Infográfico Cinema Goiano</title>
 </head>
 <body>
-    
+
     <style>
                 body {
         font-family: Arial, sans-serif;
@@ -108,5 +108,11 @@
       </p>
     </div>
   </div>
+  <script>
+    function toggleSinopse(filmeElement) {
+        const sinopse = filmeElement.querySelector(".sinopse");
+        sinopse.style.display = sinopse.style.display === "block" ? "none" : "block";
+        }
+  </script>
 </body>
 </html>
